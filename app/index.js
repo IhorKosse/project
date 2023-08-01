@@ -11,7 +11,7 @@ app.get('/', (_req, res) => {
       console.error('Error incrementing visits:', err);
       return res.status(500).send('Error incrementing visits');
     }
-    res.send(`Hi! This page has been visited ${visits} times.`);
+    res.send(`Ciao! This page has been visited ${visits} times.`);
   });
 });
 
